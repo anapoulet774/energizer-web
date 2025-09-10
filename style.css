@@ -143,3 +143,23 @@ ul {
   background-color: #000;
 }
 
+.card{
+  height: 400px;
+  background-color:black;
+  border: 2px inset red;
+}
+
+#cards-container {
+  gap: 50px;
+    display: flex;          
+  justify-content: center; 
+  align-items: center;    
+  height: 300px;         
+  width: 100%;
+  border: 1px solid red;
+}
+
+.card-container img {
+  max-width: 100%; 
+  height: auto;
+}
