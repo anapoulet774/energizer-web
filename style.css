@@ -156,10 +156,40 @@ ul {
   align-items: center;    
   height: 300px;         
   width: 100%;
-  border: 1px solid red;
 }
 
 .card-container img {
   max-width: 100%; 
   height: auto;
+}
+
+.box {
+  margin: 50px;
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-radius: 8px;               /* bordes redondeados opcional */
+  background-size: cover;           /* que ocupe todo el div */
+  background-position: center;      /* centrada */
+  background-repeat: no-repeat;     /* que no se repita */
+}
+
+/* Una imagen distinta para cada caja */
+.box:nth-child(1) {
+  background-image: url('./Img2/Energizer_Holdings_Logo.jpg');
+}
+.box:nth-child(2) {
+  background-image: url('./Img2/eveready.jpg');
+}
+.box:nth-child(3) {
+  background-image: url('./Img2/mota_sin_imagen.jpg');
+}
+.box:nth-child(4) {
+  background-image: url('./Img/foto4.jpg');
+}
+.box:nth-child(5) {
+  background-image: url('./Img/foto5.jpg');
+}
+.box:nth-child(6) {
+  background-image: url('./Img/foto6.jpg');
 }
