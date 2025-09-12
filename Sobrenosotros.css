@@ -1,0 +1,40 @@
+ body{
+   background-color: black;
+ }
+
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-family: "Oswald";
+  font-size: larger;
+}
+
+@media screen and (max-width:700px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+.nav-link:hover {
+  color: red;
+  border-bottom: 2px solid #9a9a9a;
+  transition: .8s;
+}
+
+.header-fijo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ }
+
+ .Contacto {
+    margin-top: 100px;
+ }
