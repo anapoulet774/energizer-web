@@ -1,18 +1,4 @@
-p {
-  color: white;
-}
 
-#enc-3 {
-  color: antiquewhite;
-}
-
-.enc-green {
-  color: floralwhite;
-}
-
-#párrafo {
-  color: brown;
-}
 
 body {
   background-color:black;
@@ -29,23 +15,26 @@ h1 {
 .resaltado {
   display: inline-block;       
   padding: 4px 8px;            
-  border: 2px outset rgb(112, 23, 23);
+  border: 3px outset rgb(112, 23, 23);
   font-size: 20px;             
   color:rgb(198, 0, 0);             
   background-color:rgb(198, 0, 0);
 }
 
-
-p {
-  margin-bottom: 10px;
-  padding: 10px;
+h3{
+  margin-top: 100px;
+  margin-left: 40px;
+  text-align:justify;
+  font-family:"Open Sans";
 }
 
-h2 {
-  text-align: center;
-  color: #463f3a;
-  margin: 0px;
-  padding: 0px;
+.subtitulo {
+  display: inline-block;       
+  padding: 4px 8px;            
+  border: 2px outset rgb(112, 23, 23);
+  font-size: 20px;             
+  color:rgb(198, 0, 0);             
+  background-color:rgb(198, 0, 0);
 }
 
 ul {
@@ -149,13 +138,15 @@ ul {
   border: 2px inset red;
 }
 
-#cards-container {
+.container {
+  margin-top: 30px;
   gap: 50px;
-    display: flex;          
+  display: flex;          
   justify-content: center; 
-  align-items: center;    
+  align-items: center;   
   height: 300px;         
   width: 100%;
+  border: 2px solid red;
 }
 
 .card-container img {
@@ -163,33 +154,96 @@ ul {
   height: auto;
 }
 
-.box {
-  margin: 50px;
-  width: 100px;
-  height: 100px;
-  float: left;
-  border-radius: 8px;               /* bordes redondeados opcional */
-  background-size: cover;           /* que ocupe todo el div */
-  background-position: center;      /* centrada */
-  background-repeat: no-repeat;     /* que no se repita */
+#imagen{
+  gap: 70px;
+  display: flex;          
+  justify-content: center; 
+  align-items: center;   
+  height: 150px;         
+  width: 100%;
 }
 
-/* Una imagen distinta para cada caja */
-.box:nth-child(1) {
-  background-image: url('./Img2/Energizer_Holdings_Logo.jpg');
+.img-fluid{
+  max-width: 100px; 
+  height: 100px;
+  border-radius: 8px;     
+  border: 2px outset gray;          
 }
-.box:nth-child(2) {
-  background-image: url('./Img2/eveready.jpg');
+
+.footer{
+  width: 100%;
+  float: left;
+  height: 150px;
+  background-color: rgb(42, 41, 41);
+  color: rgb(132, 131, 131);            
+  display: flex;            
+  justify-content: left;   
+  align-items: center;    
+  text-align: center;        
+  padding: 50px;       
+  font-family: Arial, sans-serif; 
 }
-.box:nth-child(3) {
-  background-image: url('./Img2/mota_sin_imagen.jpg');
+
+.footer1 {
+  width: 100%;
+  float: left;
+  height: 5px;
+  background-color: rgb(37, 37, 37);
 }
-.box:nth-child(4) {
-  background-image: url('./Img/foto4.jpg');
+
+.footer2 {
+  width: 100%;
+  float: left;
+  height: 5px;
+  background-color: rgb(20, 20, 20);
 }
-.box:nth-child(5) {
-  background-image: url('./Img/foto5.jpg');
+
+.footer3 {
+  width: 100%;
+  float: left;
+  height: 5px;
+  background-color: rgb(16, 16, 16);
 }
-.box:nth-child(6) {
-  background-image: url('./Img/foto6.jpg');
+
+.footer4 {
+  width: 100%;
+  float: left;
+  height: 5px;
+  background-color: rgb(39, 39, 39);
+}
+
+.footer5{
+  width: 100%;
+  float: left;
+  height: 5px;
+  background-color: rgb(40, 40, 40);
+}
+
+.footer6 {
+  width: 100%;
+  float: left;
+  height: 5px;
+  background-color: rgb(34, 34, 34);
+}
+
+.footer7 {
+  width: 100%;
+  float: left;
+  height: 5px;
+  background-color: rgb(29, 29, 29);
+}
+
+.footer8 {
+  width: 100%;
+  float: left;
+  height: 5px;
+  background-color: rgb(25, 25, 25);
+}
+
+.footer9 {
+  margin-top: 50px;
+  width: 100%;
+  float: left;
+  height: 5px;
+  background-color: rgb(11, 11, 11);
 }
